@@ -23,7 +23,7 @@ import Numbers from './components/Numbers.vue'
                         <div class="col-sm-6">
                             <div class="header-top-login">
                                 <ul>
-                                    <li><a href="#"><i class="far fa-edit"></i>  <Numbers /></a></li>
+                                    <Numbers />
                                 </ul>
                             </div>
                         </div>
@@ -136,6 +136,7 @@ import Numbers from './components/Numbers.vue'
 <style>
   @import './assets/css/bootstrap.min.css';
   @import './assets/css/animate.min.css';
+  @import './assets/css/fontawesome-all.min.css';
   @import './assets/css/meanmenu.css';
   @import './assets/css/magnific-popup.css';
   @import './assets/css/odometer.css';

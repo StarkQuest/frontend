@@ -75,15 +75,8 @@ const connectWallet = async () => {
 </script>
 
 <template>
-  <button type="button" @click="connectWallet" v-if="!walletConnected">
-    Connect wallet
-  </button>
+  <li type="button" @click="connectWallet" v-if="!walletConnected"><a><i class="far fa-edit"></i>  Connect wallet</a></li>
   <div class="" v-else>
-    <input type="number" name="" id="" v-model="userNum" />
-    <button type="button" @click="saveNumber" v-if="walletConnected">
-      Save number
-    </button>
-
-    <p>Your saved number is: {{ savedNumber }}</p>
+    Wallet connected
   </div>
 </template>
