@@ -23,7 +23,7 @@ import Numbers from './components/Numbers.vue'
                         <div class="col-sm-6">
                             <div class="header-top-login">
                                 <ul>
-                                    <li><a href="#"><i class="far fa-edit"></i>  <Numbers /></a></li>
+                                    <Numbers />
                                 </ul>
                             </div>
                         </div>
@@ -42,21 +42,14 @@ import Numbers from './components/Numbers.vue'
                                     <div class="navbar-wrap d-none d-lg-flex">
                                         <ul class="left">
                                           <li><router-link to="/">Home</router-link></li>
-                                          <li><router-link to="/about">About</router-link></li>
-                                            <li><a href="game-overview.html">Overview</a></li>
+                                          <li><router-link to="/quests">Quests</router-link></li>
+                                          <li><router-link to="/leaderboard">Leader Board</router-link></li>
                                             <li><a href="community.html">Community</a></li>
                                         </ul>
                                         <div class="logo">
                                             <a href="index-3.html"><img src="./assets/img/logo/h5_logo.png" alt="Logo"></a>
                                         </div>
                                         <ul class="right">
-                                            <li><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="upcoming-games.html">Upcoming Games</a></li>
-                                                    <li><a href="game-single.html">Game Single</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="shop.html">Store</a></li>
                                             <li><a href="#">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">News Page</a></li>
@@ -136,6 +129,7 @@ import Numbers from './components/Numbers.vue'
 <style>
   @import './assets/css/bootstrap.min.css';
   @import './assets/css/animate.min.css';
+  @import './assets/css/fontawesome-all.min.css';
   @import './assets/css/meanmenu.css';
   @import './assets/css/magnific-popup.css';
   @import './assets/css/odometer.css';

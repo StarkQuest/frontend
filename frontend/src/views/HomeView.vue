@@ -1,8 +1,6 @@
 <template>
-
         <!-- main-area -->
         <main>
-
             <!-- banner-area -->
             <section class="home-five-banner">
                 <div class="container">
@@ -750,6 +748,7 @@
   @import '../assets/css/odometer.css';
   @import '../assets/css/aos.css';
   @import '../assets/css/slick.css';
+  @import '../assets/css/default.css';
   @import '../assets/css/style.css';
   @import '../assets/css/responsive.css';
 </style>
