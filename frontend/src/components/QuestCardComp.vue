@@ -6,8 +6,7 @@
             </a>
             <div class="treand-gameplay-overlay">
                 <ul>
-                    <li class="duration">01 :45</li>
-                    <li class="quality">hd</li>
+                    <li class="quality">{{ title }}</li>
                 </ul>
             </div>
         </div>
@@ -22,7 +21,7 @@
                 </div>
             </div>
             <div class="gameplay-status">
-                <span>lives</span>
+                <span>live</span>
             </div>
         </div>
     </div>
