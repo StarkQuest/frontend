@@ -44,7 +44,7 @@ import Numbers from './components/Numbers.vue'
                                           <li><router-link to="/">Home</router-link></li>
                                           <li><router-link to="/quests">Quests</router-link></li>
                                           <li><router-link to="/leaderboard">Leader Board</router-link></li>
-                                            <li><a href="community.html">Community</a></li>
+                                          <li><a href="community.html">Community</a></li>
                                         </ul>
                                         <div class="logo">
                                             <a href="index-3.html"><img src="./assets/img/logo/h5_logo.png" alt="Logo"></a>
@@ -70,19 +70,10 @@ import Numbers from './components/Numbers.vue'
                                 <nav>
                                     <div id="mobile-menu" class="navbar-wrap">
                                         <ul>
-                                            <li class="show"><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li><a href="index-2.html">Home One</a></li>
-                                                    <li><a href="index-3.html">Home Two</a></li>
-                                                    <li><a href="index-4.html">Home Three</a></li>
-                                                    <li><a href="index.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
-                                                    <li><a href="index-6.html">Home Six</a></li>
-                                                    <li><a href="index-7.html">Home Seven</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about-us.html" >About</a></li>
-                                            <li><a href="game-overview.html">Overview</a></li>
+                                          <li class="show"><router-link to="/">Home</router-link></li>
+                                          <li><router-link to="/quests">Quests</router-link></li>
+                                          <li><router-link to="/leaderboard">Leader Board</router-link></li>
+     
                                             <li><a href="community.html">Community</a></li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
@@ -97,7 +88,6 @@ import Numbers from './components/Numbers.vue'
                                                     <li><a href="blog-details.html">News Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -129,6 +119,7 @@ import Numbers from './components/Numbers.vue'
 <style>
   @import './assets/css/bootstrap.min.css';
   @import './assets/css/animate.min.css';
+  @import './assets/css/default.css';
   @import './assets/css/fontawesome-all.min.css';
   @import './assets/css/meanmenu.css';
   @import './assets/css/magnific-popup.css';

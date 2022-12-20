@@ -14,7 +14,6 @@
           </div>
 
           <div class="row">
-
               <div class="col-lg-4 col-md-6">
                   <QuestCardComp filename="Axie.png" title="Axie"/>
               </div>
@@ -37,16 +36,18 @@
       </div>
   </section>
   <!-- trending-gameplay-end -->
-
+<FooterView />
 </template>
 
 <script>
 import QuestCardComp from '../components/QuestCardComp.vue'
+import FooterView from './FooterView.vue'
 
 export default {
   name: 'Quests',
   components: {
-    QuestCardComp
+    QuestCardComp,
+    FooterView
   }
 }
 
